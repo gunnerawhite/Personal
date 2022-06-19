@@ -27,7 +27,7 @@ h1{
 #sign_in_button{
     background-color: rgb(255, 136, 0);
     height: 50px;
-    width: 250px;
+    width: 350px;
     text-align: center;
     border-radius: 25px;
     line-height: 50px;
@@ -38,6 +38,24 @@ h1{
 }
 #sign_in{
     color:black;
+    text-decoration: none;
+}
+#log_in_container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+#google_button,#apple_button{
+    background: black;
+    height: 50px;
+    width: 150px;
+    margin-top: 5px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 25px;
+}
+#google, #Apple{
+    color:white;
     text-decoration: none;
 }
 #last_line{
