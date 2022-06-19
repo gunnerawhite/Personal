@@ -1,0 +1,47 @@
+.container{
+    display: grid;
+    grid-template-rows: 300px;
+    background-color: rgb(255, 136, 0);
+}
+h1{
+    color: white;
+    margin: 20px 0 0 40px;
+    font-size: 2em;
+}
+.bottom_half{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    flex-direction: center;
+    height: 300px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    justify-content: center;
+    align-items: center;
+}
+#main_header{
+    font-size: 2em;
+    color: black;
+    padding-bottom: 20px;
+}
+#sign_in_button{
+    background-color: rgb(255, 136, 0);
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    border-radius: 25px;
+    line-height: 50px;
+    white-space: nowrap;
+}
+#sign_in_button:hover{
+    background-color: rgb(132, 70, 0);
+}
+#sign_in{
+    color:black;
+    text-decoration: none;
+}
+#last_line{
+    color: grey;
+}
+
+
