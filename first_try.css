@@ -61,5 +61,76 @@ h1{
 #last_line{
     color: grey;
 }
-
-
+.container_two{
+    background:rgb(255, 136, 0);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr auto;
+    grid-gap: 5px;
+}
+h3{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: white;
+    margin: 20px 0 0 40px;
+}
+.head_img{
+    margin-top: 20px;
+    width: 25%;
+    height: 25%;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    border-radius: 100%;
+}
+#Player_box_one{
+    display:grid;
+    background: rgb(67, 67, 67);
+    grid-template-columns: 2fr 4fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 10px 20px 10px 20px;
+    grid-row: 3/4;
+    grid-column: 1/7;
+    border-radius: 25px;
+}
+#Player_box_two{
+    display:grid;
+    background: rgb(67, 67, 67);
+    grid-template-columns: 2fr 4fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 10px 20px 10px 20px;
+    grid-row: 4/5;
+    grid-column: 1/7;
+    border-radius: 25px;
+}
+#Player_box_three{
+    display:grid;
+    background: rgb(67, 67, 67);
+    grid-template-columns: 2fr 4fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 10px 20px 10px 20px;
+    grid-row: 5/6;
+    grid-column: 1/7;
+    border-radius: 25px;
+}
+#default_img{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+#favorite_img{
+    width: 20%;
+    height: 60%;
+    color: rgb(58, 58, 255);
+}
+#name_one{
+    color:white;
+    
+}
+#name{
+    color:white;
+}
+#role{
+    color:rgb(166, 166, 166);
+}
